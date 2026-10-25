@@ -19,7 +19,7 @@ const translations = {
     infoTitle: "How it works:",
     infoText: "The unsafe section directly inserts your input as HTML (innerHTML), while the safe section treats it as plain text (textContent). Try entering: <code>&lt;script&gt;alert('XSS')&lt;/script&gt;</code>, <code>&lt;img src=x onerror=alert('XSS')&gt;</code>, or <code>&lt;div onclick=\"alert('XSS')\"&gt;Click me&lt;/div&gt;</code>",
     footer: "Created for cybersecurity learning. Inspect the code to better understand how XSS works.",
-    footerCredit: "Created by TTB3AR",
+    footerCredit: "Created by ericeisaman",
     scriptExecuted: "Script executed",
     scriptError: "Script error: "
   },
@@ -35,7 +35,7 @@ const translations = {
     infoTitle: "動作原理:",
     infoText: "安全でないセクションは入力をHTMLとして直接挿入し（innerHTML）、安全セクションはプレーンテキストとして扱います（textContent）。以下を入力してみてください: <code>&lt;script&gt;alert('XSS')&lt;/script&gt;</code> または <code>&lt;img src=x onerror=alert('XSS')&gt;</code>",
     footer: "サイバーセキュリティ学習用に作成。XSSの仕組みを理解するためにコードを調べてください。",
-    footerCredit: "TTB3AR制作",
+    footerCredit: "ericeisaman制作",
     scriptExecuted: "スクリプトが実行されました",
     scriptError: "スクリプトエラー: "
   }
